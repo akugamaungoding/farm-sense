@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGameStore } from '../store/gameStore';
 import Cinematic3DBackground from '../components/Cinematic3DBackground';
+import TutorialCard from '../components/TutorialCard';
 import { soundEffects } from '../utils/soundManager';
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
   const [showAnimation, setShowAnimation] = useState(false);
   const [isLaunching, setIsLaunching] = useState(false);
   const [showUI, setShowUI] = useState(true);
+  const [showTutorial, setShowTutorial] = useState(true);
 
   const handleStartGame = () => {
     if (player1Name.trim() && player2Name.trim()) {
