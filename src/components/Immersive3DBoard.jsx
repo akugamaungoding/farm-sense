@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Stars, Box, Sphere, Cone, Text, useTexture } from '@react-three/drei';
+import { OrbitControls, Stars, Box, Sphere, Cone, Text, useTexture, Html } from '@react-three/drei';
 import * as THREE from 'three';
 import { motion } from 'framer-motion';
 
@@ -57,15 +57,29 @@ function BoardTile({ position, index, event, isActive, isHighlighted }) {
       
       {/* Event icon */}
       {event?.icon && (
-        <Text
-          position={[0, 0.4, 0]}
-          fontSize={0.6}
-          color="#ffffff"
-          anchorX="center"
-          anchorY="middle"
-        >
-          {event.icon}
-        </Text>
+        <Html position={[0, 0.4, 0]} center>
+          <div style={{
+            width: '60px',
+            height: '60px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'rgba(0, 0, 0, 0.7)',
+            borderRadius: '50%',
+            border: '2px solid rgba(255, 255, 255, 0.3)',
+            backdropFilter: 'blur(10px)'
+          }}>
+            <img 
+              src={`/${event.icon}`} 
+              alt={event.title}
+              style={{
+                width: '40px',
+                height: '40px',
+                objectFit: 'contain'
+              }}
+            />
+          </div>
+        </Html>
       )}
       
       {/* 3D Tile number - Top Left Corner */}

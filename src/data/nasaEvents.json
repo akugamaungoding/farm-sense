@@ -5,7 +5,7 @@
     "effect": -20,
     "message": "NASA SMAP shows low soil moisture. Crops suffer!",
     "fact": "NASA's SMAP satellite measures soil moisture globally to predict drought risk.",
-    "icon": "🌵"
+    "icon": "cactus.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "effect": 15,
     "message": "Moderate rain improves soil moisture. Great job!",
     "fact": "NASA's GPM satellite tracks precipitation patterns to help farmers plan irrigation.",
-    "icon": "🌧️"
+    "icon": "cloud.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "effect": -10,
     "message": "Temperature exceeds 35°C. Your crops wilt slightly.",
     "fact": "NASA's Landsat satellites monitor surface temperature to track heat stress in crops.",
-    "icon": "☀️"
+    "icon": "sun.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "effect": 25,
     "message": "NDVI levels are high — crops thriving!",
     "fact": "NASA uses NDVI (Normalized Difference Vegetation Index) to measure plant health from space.",
-    "icon": "🌱"
+    "icon": "plant.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "effect": -15,
     "message": "NASA Flood Pathfinder shows excess water in fields.",
     "fact": "NASA's Flood Pathfinder uses satellite data to predict and monitor flooding events.",
-    "icon": "🌊"
+    "icon": "flood.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "effect": -12,
     "message": "Satellite thermal imaging detects pest activity!",
     "fact": "NASA scientists use thermal imaging to detect pest infestations before they become visible.",
-    "icon": "🐛"
+    "icon": "caterpillars.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "effect": -18,
     "message": "MODIS satellite detects frost formation!",
     "fact": "NASA's MODIS satellite can detect frost formation in real-time from space.",
-    "icon": "❄️"
+    "icon": "snow.png"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "effect": -8,
     "message": "High winds detected by QuikSCAT satellite!",
     "fact": "NASA's QuikSCAT satellite measures wind speed to help predict storm damage.",
-    "icon": "💨"
+    "icon": "wind.png"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "effect": 20,
     "message": "Bee activity is optimal for crop pollination!",
     "fact": "NASA studies bee populations from space to understand pollination patterns.",
-    "icon": "🐝"
+    "icon": "bee.png"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "effect": 30,
     "message": "SMAP data shows perfect harvest conditions!",
     "fact": "NASA's SMAP satellite determines optimal harvest timing by measuring soil moisture.",
-    "icon": "🌾"
+    "icon": "wheat.png"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "effect": -14,
     "message": "Hyperspectral imaging shows low nitrogen levels.",
     "fact": "NASA uses hyperspectral imaging to detect nutrient deficiencies in crops from space.",
-    "icon": "🌿"
+    "icon": "herb.png"
   },
   {
     "id": 12,
@@ -93,6 +93,6 @@
     "effect": 22,
     "message": "Your farm is helping capture carbon dioxide!",
     "fact": "NASA's OCO-2 satellite measures how much CO2 plants absorb from the atmosphere.",
-    "icon": "🌍"
+    "icon": "globe.png"
   }
 ]
