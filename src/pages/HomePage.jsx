@@ -172,7 +172,7 @@ const HomePage = () => {
                             }}
                           >
                             <i className="fas fa-graduation-cap me-2"></i>
-                            Lihat Panduan Game
+                            View Game Guide
                           </motion.button>
                         </motion.div>
                     

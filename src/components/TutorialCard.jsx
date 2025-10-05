@@ -7,38 +7,38 @@ export default function TutorialCard({ onComplete }) {
 
   const tutorialSteps = [
     {
-      title: "🌾 Selamat Datang di FARMPOLY 3D!",
-      content: "Game edukasi tentang pertanian berkelanjutan menggunakan data NASA. Kamu akan belajar tentang monitoring pertanian dari luar angkasa!",
+      title: "🌾 Welcome to FARMPOLY 3D!",
+      content: "An educational game about sustainable farming using NASA data. You'll learn about agricultural monitoring from space!",
       icon: "🚀"
     },
     {
-      title: "🎲 Cara Bermain",
-      content: "1. Roll dice untuk mendapat angka\n2. Jawab pertanyaan NASA dengan benar/salah\n3. Jika benar: maju ke tile berikutnya\n4. Jika salah: tetap di tile yang sama",
+      title: "🎲 How to Play",
+      content: "1. Roll dice to get a number\n2. Answer NASA questions (True/False)\n3. If correct: move forward to next tile\n4. If wrong: stay on current tile",
       icon: "🎯"
     },
     {
       title: "🌍 NASA Events",
-      content: "Setiap tile memiliki event pertanian berdasarkan data NASA seperti:\n• Drought Detection (Kekeringan)\n• Perfect Rainfall (Hujan Sempurna)\n• Vegetation Boost (Pertumbuhan Tanaman)",
+      content: "Each tile has agricultural events based on NASA data like:\n• Drought Detection\n• Perfect Rainfall\n• Vegetation Boost\n• Extreme Heat Events",
       icon: "🛰️"
     },
     {
-      title: "💰 Eco-Coins",
-      content: "Dapatkan eco-coins dari:\n• Menjawab pertanyaan dengan benar\n• Event positif (hujan, panen, dll)\n• Challenge bonuses\n\nKehilangan coins dari event negatif!",
+      title: "💰 Eco-Coins System",
+      content: "Earn eco-coins from:\n• Correct answers to questions\n• Positive events (rain, harvest, etc.)\n• Challenge bonuses\n• Streak rewards\n\nLose coins from negative events!",
       icon: "💎"
     },
     {
       title: "🏆 Challenges & Streaks",
-      content: "• Streak: Jawaban benar berturut-turut\n• Challenge: Hadiah khusus untuk performa bagus\n• Accuracy: Persentase jawaban benar\n\nSemakin bagus performa, semakin banyak reward!",
+      content: "• Streak: Consecutive correct answers\n• Challenge: Special rewards for good performance\n• Accuracy: Percentage of correct answers\n\nBetter performance = More rewards!",
       icon: "⭐"
     },
     {
-      title: "🎮 Tujuan Game",
-      content: "• Belajar tentang pertanian berkelanjutan\n• Memahami data NASA untuk pertanian\n• Menjadi petani digital terbaik\n• Raih eco-coins terbanyak dalam 10 turn!",
+      title: "🎮 Game Objectives",
+      content: "• Learn about sustainable farming\n• Understand NASA data for agriculture\n• Become the best digital farmer\n• Collect the most eco-coins in 10 turns!",
       icon: "🏅"
     },
     {
-      title: "🚀 Siap Memulai?",
-      content: "Sekarang kamu sudah paham cara bermain!\n\nMasukkan nama kedua player dan mulai petualangan pertanian luar angkasa!",
+      title: "🚀 Ready to Start?",
+      content: "Now you understand how to play!\n\nEnter both player names and begin your space farming adventure!",
       icon: "🌟"
     }
   ];
@@ -163,7 +163,7 @@ export default function TutorialCard({ onComplete }) {
             
             <div className="text-center">
               <small className="text-white-50">
-                {currentStep === tutorialSteps.length - 1 ? 'Selesai!' : 'Lanjut ke step berikutnya'}
+                {currentStep === tutorialSteps.length - 1 ? 'Complete!' : 'Continue to next step'}
               </small>
             </div>
             
@@ -178,7 +178,7 @@ export default function TutorialCard({ onComplete }) {
               {currentStep === tutorialSteps.length - 1 ? (
                 <>
                   <i className="fas fa-rocket me-2"></i>
-                  Mulai Game!
+                  Start Game!
                 </>
               ) : (
                 <>
