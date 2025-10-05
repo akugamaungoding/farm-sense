@@ -43,6 +43,14 @@ const HomePage = () => {
     soundEffects.playHover();
   };
 
+  const handleTutorialComplete = () => {
+    setShowTutorial(false);
+  };
+
+  const handleShowTutorial = () => {
+    setShowTutorial(true);
+  };
+
   return (
     <div className="min-vh-100 position-relative overflow-hidden">
       {/* Cinematic 3D Background */}
@@ -132,16 +140,41 @@ const HomePage = () => {
               </div>
             </motion.div>
 
-            {/* Interactive Elements Section (Centered) */}
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.5, duration: 0.8 }}
-              className="d-flex justify-content-center pb-5"
-            >
-              <div className="container-fluid px-4">
-                <div className="row justify-content-center">
-                  <div className="col-lg-8 col-xl-6">
+                {/* Interactive Elements Section (Centered) */}
+                <motion.div
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.5, duration: 0.8 }}
+                  className="d-flex justify-content-center pb-5"
+                >
+                  <div className="container-fluid px-4">
+                    <div className="row justify-content-center">
+                      <div className="col-lg-8 col-xl-6">
+                        
+                        {/* Tutorial Button */}
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: 1.7, duration: 0.6 }}
+                          className="text-center mb-4"
+                        >
+                          <motion.button
+                            onClick={handleShowTutorial}
+                            className="btn btn-outline-info btn-lg px-4 py-2"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            style={{
+                              background: 'rgba(56, 189, 248, 0.1)',
+                              border: '2px solid rgba(56, 189, 248, 0.6)',
+                              color: '#38bdf8',
+                              backdropFilter: 'blur(10px)',
+                              borderRadius: '25px'
+                            }}
+                          >
+                            <i className="fas fa-graduation-cap me-2"></i>
+                            Lihat Panduan Game
+                          </motion.button>
+                        </motion.div>
                     
                     {/* Player Input Form */}
                     <motion.div
@@ -306,12 +339,12 @@ const HomePage = () => {
                     Mission Briefing
                   </h5>
                   <div className="row g-3">
-                    {[
-                      { icon: '🎲', text: 'Roll dice & answer NASA questions' },
-                      { icon: '🚶', text: 'Move across the 3D board if correct' },
-                      { icon: '🌍', text: 'Face NASA events & earn eco-coins' },
-                      { icon: '🏆', text: 'First to complete 10 turns wins!' }
-                    ].map((item, index) => (
+                        {[
+                          { icon: '🎲', text: 'Roll dice & answer NASA questions' },
+                          { icon: '🚶', text: 'Move forward if correct, stay if wrong' },
+                          { icon: '💰', text: 'Earn eco-coins from events & challenges' },
+                          { icon: '🏆', text: 'Complete 10 turns to win!' }
+                        ].map((item, index) => (
                       <motion.div
                         key={index}
                         className="col-md-6 d-flex align-items-center"
@@ -345,10 +378,17 @@ const HomePage = () => {
         )}
       </AnimatePresence>
 
-      {/* Launch Transition Overlay */}
-      <AnimatePresence>
-        {isLaunching && (
-          <motion.div
+          {/* Tutorial Card */}
+          <AnimatePresence>
+            {showTutorial && (
+              <TutorialCard onComplete={handleTutorialComplete} />
+            )}
+          </AnimatePresence>
+
+          {/* Launch Transition Overlay */}
+          <AnimatePresence>
+            {isLaunching && (
+              <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

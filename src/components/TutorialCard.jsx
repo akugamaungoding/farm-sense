@@ -156,7 +156,6 @@ export default function TutorialCard({ onComplete }) {
               onClick={prevStep}
               disabled={currentStep === 0}
               className={`btn ${currentStep === 0 ? 'btn-secondary' : 'btn-outline-primary'}`}
-              disabled={currentStep === 0}
             >
               <i className="fas fa-arrow-left me-2"></i>
               Previous
