@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "type": "bonus",
+    "title": "🚀 NASA Scientist Bonus",
+    "description": "You've been selected for a special NASA research project!",
+    "condition": "high_score",
+    "trigger": 150,
+    "reward": 50,
+    "message": "Your agricultural knowledge impressed NASA scientists!",
+    "icon": "🧑‍🔬"
+  },
+  {
+    "id": 2,
+    "type": "bonus",
+    "title": "🌍 Environmental Hero",
+    "description": "Your sustainable farming practices caught NASA's attention!",
+    "condition": "consecutive_correct",
+    "trigger": 3,
+    "reward": 30,
+    "message": "You answered 3 NASA questions correctly in a row!",
+    "icon": "🌱"
+  },
+  {
+    "id": 3,
+    "type": "bonus",
+    "title": "🛰️ Satellite Launch",
+    "description": "NASA launched a new agricultural monitoring satellite!",
+    "condition": "turn_number",
+    "trigger": 5,
+    "reward": 25,
+    "message": "Every player gets a bonus from the new satellite data!",
+    "icon": "🚀"
+  },
+  {
+    "id": 4,
+    "type": "challenge",
+    "title": "🌪️ Space Storm",
+    "description": "A solar storm is affecting satellite communications!",
+    "condition": "low_score",
+    "trigger": 50,
+    "reward": -20,
+    "message": "Satellite data is unreliable due to space weather!",
+    "icon": "⚡"
+  },
+  {
+    "id": 5,
+    "type": "challenge",
+    "title": "🐛 Crop Pest Outbreak",
+    "description": "An unexpected pest outbreak threatens your crops!",
+    "condition": "random",
+    "trigger": 0.1,
+    "reward": -15,
+    "message": "NASA detected a pest infestation in your region!",
+    "icon": "🐛"
+  },
+  {
+    "id": 6,
+    "type": "special",
+    "title": "🌙 Lunar Eclipse Challenge",
+    "description": "A lunar eclipse is affecting Earth observation satellites!",
+    "condition": "special_event",
+    "trigger": "eclipse",
+    "reward": 0,
+    "message": "Answer this special question to avoid penalties!",
+    "icon": "🌙",
+    "specialQuestion": "During a lunar eclipse, satellites can still monitor Earth's surface effectively."
+  },
+  {
+    "id": 7,
+    "type": "bonus",
+    "title": "🌟 Stellar Performance",
+    "description": "Your farming strategy is out of this world!",
+    "condition": "high_efficiency",
+    "trigger": 80,
+    "reward": 40,
+    "message": "You've achieved 80% accuracy in NASA questions!",
+    "icon": "⭐"
+  },
+  {
+    "id": 8,
+    "type": "challenge",
+    "title": "☄️ Asteroid Alert",
+    "description": "An asteroid near Earth is causing satellite disruptions!",
+    "condition": "random",
+    "trigger": 0.05,
+    "reward": -25,
+    "message": "Space debris is affecting satellite operations!",
+    "icon": "☄️"
+  },
+  {
+    "id": 9,
+    "type": "special",
+    "title": "🔬 Research Opportunity",
+    "description": "NASA offers you a chance to participate in research!",
+    "condition": "exact_position",
+    "trigger": 6,
+    "reward": 35,
+    "message": "You landed on the perfect research tile!",
+    "icon": "🔬"
+  },
+  {
+    "id": 10,
+    "type": "bonus",
+    "title": "🌊 Ocean Monitoring Bonus",
+    "description": "NASA's ocean satellites detected favorable conditions!",
+    "condition": "turn_number",
+    "trigger": 8,
+    "reward": 20,
+    "message": "Ocean data shows excellent growing conditions!",
+    "icon": "🌊"
+  }
+]

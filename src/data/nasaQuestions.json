@@ -1,0 +1,152 @@
+[
+  {
+    "source": "NASA EarthData - Agriculture Production",
+    "question": "NASA uses soil moisture data to support agricultural production decisions.",
+    "answer": true
+  },
+  {
+    "source": "NASA EarthData - Agriculture Production",
+    "question": "NASA does not provide rainfall or climate data for agricultural research.",
+    "answer": false
+  },
+  {
+    "source": "NASA EarthData - SMAP Mission",
+    "question": "The SMAP satellite measures surface soil moisture from space.",
+    "answer": true
+  },
+  {
+    "source": "NASA Acres",
+    "question": "NASA Acres only operates outside the United States.",
+    "answer": false
+  },
+  {
+    "source": "NASA Acres - The Science Behind NASA Acres",
+    "question": "High-resolution satellite images can see cars and people in farm fields.",
+    "answer": false
+  },
+  {
+    "source": "NASA EarthData - Remote Sensing",
+    "question": "Active sensors such as radar can see through clouds to measure soil conditions.",
+    "answer": true
+  },
+  {
+    "source": "NASA EarthData - Remote Sensing",
+    "question": "Passive sensors can observe all weather conditions without interference.",
+    "answer": false
+  },
+  {
+    "source": "NASA Earth Observatory - Food and Agriculture",
+    "question": "Satellite imagery helps scientists monitor crop health and land productivity.",
+    "answer": true
+  },
+  {
+    "source": "NASA GFSAD - Measuring the World's Croplands",
+    "question": "The GFSAD dataset maps cropland areas with 30-meter resolution.",
+    "answer": true
+  },
+  {
+    "source": "FAO EOSTAT Program",
+    "question": "FAO's EOSTAT project uses Earth observation data to create land cover maps.",
+    "answer": true
+  },
+  {
+    "source": "FAO EOSTAT Program",
+    "question": "FAO's EOSTAT project does not use any satellite data.",
+    "answer": false
+  },
+  {
+    "source": "UNEP Climate and Environment",
+    "question": "Extreme heat events can negatively affect farm productivity.",
+    "answer": true
+  },
+  {
+    "source": "World Bank Climate Data",
+    "question": "Changes in rainfall patterns can influence crop yields worldwide.",
+    "answer": true
+  },
+  {
+    "source": "ESA Earth Observation for Society",
+    "question": "Earth observation satellites are used to monitor agricultural changes on a global scale.",
+    "answer": true
+  },
+  {
+    "source": "UN SDGs Portal",
+    "question": "Zero Hunger (SDG 2) aims to eliminate food waste and end all forms of malnutrition.",
+    "answer": true
+  },
+  {
+    "source": "UN SDGs Portal",
+    "question": "Climate Action (SDG 13) focuses only on building new farms, not on reducing emissions.",
+    "answer": false
+  },
+  {
+    "source": "NASA Harvest",
+    "question": "NASA Harvest works with global partners to improve food security using satellite data.",
+    "answer": true
+  },
+  {
+    "source": "NASA Harvest",
+    "question": "NASA Harvest focuses only on economic analysis and not on environmental factors.",
+    "answer": false
+  },
+  {
+    "source": "FAO - Sustainable Agriculture",
+    "question": "Crop rotation helps maintain soil health and supports sustainable agriculture.",
+    "answer": true
+  },
+  {
+    "source": "UNEP - Climate Education",
+    "question": "Reducing water waste in agriculture supports SDG 13: Climate Action.",
+    "answer": true
+  },
+  {
+    "source": "NASA EarthData - MODIS",
+    "question": "MODIS satellites can only capture images during daytime hours.",
+    "answer": false
+  },
+  {
+    "source": "NASA SMAP Mission",
+    "question": "SMAP data is only available to government agencies, not farmers.",
+    "answer": false
+  },
+  {
+    "source": "FAO - Crop Monitoring",
+    "question": "Satellite data can predict crop yields with 100% accuracy.",
+    "answer": false
+  },
+  {
+    "source": "UNEP - Water Resources",
+    "question": "Irrigation systems have no impact on water conservation efforts.",
+    "answer": false
+  },
+  {
+    "source": "World Bank - Agricultural Policy",
+    "question": "Small-scale farmers cannot benefit from precision agriculture technologies.",
+    "answer": false
+  },
+  {
+    "source": "ESA - Sentinel Program",
+    "question": "Sentinel satellites can monitor deforestation in real-time.",
+    "answer": true
+  },
+  {
+    "source": "NASA - Climate Change",
+    "question": "Rising temperatures always decrease agricultural productivity.",
+    "answer": false
+  },
+  {
+    "source": "FAO - Food Security",
+    "question": "Vertical farming can only be implemented in urban areas.",
+    "answer": false
+  },
+  {
+    "source": "UN SDGs - Life on Land",
+    "question": "Sustainable farming practices can increase biodiversity.",
+    "answer": true
+  },
+  {
+    "source": "NASA - Landsat Program",
+    "question": "Landsat satellites have been operating for over 50 years.",
+    "answer": true
+  }
+]

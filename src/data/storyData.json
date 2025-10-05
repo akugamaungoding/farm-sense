@@ -1,0 +1,146 @@
+{
+  "characters": {
+    "astro": {
+      "name": "Astro the Astronaut",
+      "emoji": "👨‍🚀",
+      "description": "A friendly astronaut who helps kids learn about space farming",
+      "color": "blue"
+    },
+    "cosmo": {
+      "name": "Cosmo the Robot",
+      "emoji": "🤖",
+      "description": "A helpful robot that monitors crops from space",
+      "color": "purple"
+    },
+    "stella": {
+      "name": "Stella the Star",
+      "emoji": "⭐",
+      "description": "A magical star that makes plants grow",
+      "color": "yellow"
+    },
+    "terra": {
+      "name": "Terra the Earth",
+      "emoji": "🌍",
+      "description": "Our beautiful planet that needs our help",
+      "color": "green"
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Welcome to Space Farm!",
+      "story": "Hi there, little farmer! I'm Astro the Astronaut! 👨‍🚀\n\nWelcome to our amazing Space Farm where we grow plants using data from NASA satellites! 🛰️\n\nToday, you'll help me take care of our space garden. Are you ready for this awesome adventure?",
+      "character": "astro",
+      "actions": [
+        {
+          "text": "Yes! I'm ready! 🚀",
+          "nextChapter": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Meet Our Friends",
+      "story": "Great! Let me introduce you to our space farming team! 🤖⭐\n\nThis is Cosmo the Robot - he watches our plants from space! And this is Stella the Star - she makes everything grow with her magic! ✨\n\nTogether, we'll learn how to help plants grow using information from NASA satellites!",
+      "character": "cosmo",
+      "actions": [
+        {
+          "text": "Wow! That's so cool! 🌟",
+          "nextChapter": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Challenge Begins!",
+      "story": "Perfect! Now here's how our space farming game works: 🌱\n\nNASA satellites send us important messages about our plants. When you see an alert, you need to help by choosing the right action!\n\nRemember: 💧 Water for thirsty plants, ☀️ Shade for hot plants, 🌾 Food for hungry plants, and 🛡️ Protection for scared plants!\n\nLet's start farming!",
+      "character": "stella",
+      "actions": [
+        {
+          "text": "Let's start! I want to help! 🌱",
+          "nextChapter": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Game Time!",
+      "story": "Excellent! The game is starting now! 🎮\n\nWatch for NASA alerts and help our plants grow! You have 60 seconds to help as many plants as you can!\n\nGood luck, little farmer! 🌟",
+      "character": "astro",
+      "actions": [
+        {
+          "text": "I'm ready! Start the game! 🎮",
+          "startGame": true
+        }
+      ]
+    }
+  ],
+  "gameEvents": [
+    {
+      "id": 1,
+      "type": "drought",
+      "story": "Oh no! Our plants are thirsty! 💧\n\nCosmo says: 'The soil is too dry! We need water!'",
+      "correctAction": "water",
+      "emoji": "💧",
+      "successMessage": "Great job! You gave our plants water! 🌱✨",
+      "nasaFact": "NASA satellites can see when soil is dry from space! They help farmers know when to water their crops!"
+    },
+    {
+      "id": 2,
+      "type": "heat",
+      "story": "It's getting too hot! ☀️\n\nStella says: 'The sun is too strong! Our plants need shade!'",
+      "correctAction": "shade",
+      "emoji": "☀️",
+      "successMessage": "Perfect! You protected our plants from the hot sun! 🌿",
+      "nasaFact": "NASA watches Earth's temperature every day! They help us understand weather changes!"
+    },
+    {
+      "id": 3,
+      "type": "hunger",
+      "story": "Our plants are hungry! 🌾\n\nAstro says: 'The plants need more food to grow big and strong!'",
+      "correctAction": "fertilize",
+      "emoji": "🌾",
+      "successMessage": "Wonderful! You fed our hungry plants! 🌱💚",
+      "nasaFact": "NASA helps farmers know exactly what nutrients their plants need by looking at them from space!"
+    },
+    {
+      "id": 4,
+      "type": "storm",
+      "story": "A big storm is coming! ⛈️\n\nTerra says: 'We need to protect our plants from the wind and rain!'",
+      "correctAction": "protect",
+      "emoji": "🌪️",
+      "successMessage": "Excellent! You kept our plants safe from the storm! 🛡️",
+      "nasaFact": "NASA satellites can predict storms 7 days before they happen! This helps farmers protect their crops!"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "space_hero",
+      "title": "Space Farming Hero!",
+      "description": "You helped lots of plants grow!",
+      "emoji": "🏆",
+      "minScore": 100
+    },
+    {
+      "id": "plant_helper",
+      "title": "Amazing Plant Helper!",
+      "description": "You're great at helping plants!",
+      "emoji": "🌟",
+      "minScore": 50
+    },
+    {
+      "id": "learning_star",
+      "title": "Learning Star!",
+      "description": "You're learning about space farming!",
+      "emoji": "⭐",
+      "minScore": 20
+    },
+    {
+      "id": "getting_started",
+      "title": "Getting Started!",
+      "description": "Keep practicing to help more plants!",
+      "emoji": "🌱",
+      "minScore": 0
+    }
+  ]
+}
